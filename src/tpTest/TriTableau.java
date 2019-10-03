@@ -125,7 +125,7 @@ public class TriTableau {
 
     public static void main(String args[]) {
 
-        int[] values = { 1, 3, 2, 4 };
+        int[] values = {10, 2, 3, 76, 20, 11, 87, 67};
 
         TriTableau triTableau = new TriTableau(values); // on créé le tableau
 

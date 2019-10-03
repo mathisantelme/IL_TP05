@@ -14,4 +14,19 @@ public class TestTri {
 	public void testTriSelection () {
 		Assert.assertArrayEquals(this.sortedValues, tritableau.triSelection());
 	}
+	
+	@Test
+	public void testTriInsertion() {
+		Assert.assertArrayEquals(this.sortedValues, tritableau.triInsertion());
+	}
+	
+	@Test
+	public void testTriShell() {
+		Assert.assertArrayEquals(this.sortedValues, tritableau.triShell());
+	}
+	
+	@Test
+	public void testTriBulle() {
+		Assert.assertArrayEquals(this.sortedValues, tritableau.triBulle());
+	}
 }
