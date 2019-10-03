@@ -80,7 +80,7 @@ public class TriTableau {
         int j, v;
         int[] sortedTab = this.getTab();
 
-        for (int i = 1; i < this.getTabLength() - 1; ++i) {
+        for (int i = 1; i < this.getTabLength(); ++i) {
             v = sortedTab[i];
             j = i;
             while (j > 0 && sortedTab[j - 1] > v) {
