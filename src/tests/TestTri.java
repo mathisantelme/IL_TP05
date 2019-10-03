@@ -19,6 +19,15 @@ public class TestTri {
 	@Test
 	public void testTriInsertion() {
 		Assert.assertArrayEquals(this.sortedValues, tritableau.triInsertion());
+		int[] tab0= {};
+		int[] tab1= {2,3,1,4};
+		int[]tab2= {1,2,3,4};
+		tritableau.setTab(tab0);
+		Assert.assertArrayEquals(tab0, tritableau.triInsertion());
+		tritableau.setTab(tab1);
+		Assert.assertArrayEquals(tab2, tritableau.triInsertion());
+		tritableau.setTab(tab2);
+		Assert.assertArrayEquals(tab2, tritableau.triInsertion());
 	}
 	
 	@Test
