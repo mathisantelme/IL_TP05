@@ -1,8 +1,9 @@
-package testPackage;
+package tests;
+import org.junit.Assert;
+
+import tpTest.TriTableau;
 
 import org.junit.*;
-import org.junit.Assert;
-import tpTest.TriTableau;
 
 public class TestTri {
 	

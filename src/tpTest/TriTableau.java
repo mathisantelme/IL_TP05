@@ -1,4 +1,5 @@
 package tpTest;
+
 /**
  * @author Les méthodes de tri sont issues de :
  *         http://pauillac.inria.fr/~levy/x/tc98/java/Tri.java
@@ -11,7 +12,6 @@ public class TriTableau {
 
     // Constructeurs
     public TriTableau(int[] p_tab) {
-
         this.tab = p_tab;
     }
 
@@ -80,7 +80,7 @@ public class TriTableau {
         int j, v;
         int[] sortedTab = this.getTab();
 
-        for (int i = 1; i < this.getTabLength() - 1; ++i) {
+        for (int i = 1; i < this.getTabLength(); ++i) {
             v = sortedTab[i];
             j = i;
             while (j > 0 && sortedTab[j - 1] > v) {
